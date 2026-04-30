@@ -59,3 +59,11 @@ state_dict = torch.load(weights_path)
 
 print(f"Successfully loaded foundation weights from {weights_path}")
 ```
+
+## The LLM Reasoning Bridge
+
+The GED provides:
+
+- **Topology Compression:** Reducing complex graphs to 32D latent vectors for token efficiency.
+- **Structural Grounding:** Preventing LLM hallucinations by providing a mathematical 'source of truth' for connections.
+- **Anomaly-Driven Prompting:** Injecting reconstruction error scores into the LLM context to flag risks.
