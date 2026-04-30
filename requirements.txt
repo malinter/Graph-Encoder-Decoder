@@ -1,0 +1,7 @@
+torch>=2.2.0
+torch-geometric
+networkx
+matplotlib
+lightrag-hku[api]
+pydantic>=2.0
+tiktoken

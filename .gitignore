@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+synthetic_system_graphs.pt
+.DS_Store
+telemetry/
+weights/
+ged-env/
